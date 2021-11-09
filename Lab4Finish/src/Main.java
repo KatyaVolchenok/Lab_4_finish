@@ -16,7 +16,7 @@ public class Main {
        base.set(5);
         base.set(6);
          base.set(7);
-          base.set(46);
+         
        
         System.out.println(base.count());
         System.out.println(base.toString());
@@ -27,13 +27,11 @@ public class Main {
         System.out.println(base.count());
         System.out.println(base.toString());
         System.out.println(base.get(6));
-        System.out.println(base.get(7));
         System.out.println("");
         
         
         baseBit.set(5);
-        baseBit.set(6);
-         baseBit.set(7);
+         baseBit.set(6);
           baseBit.set(46);
        
         System.out.println(baseBit.count());
