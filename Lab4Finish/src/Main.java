@@ -28,7 +28,7 @@ public class Main {
         System.out.println(base.toString());
         System.out.println(base.get(6));
         System.out.println(base.get(7));
-        System.out.println("____________________________________________________");
+        System.out.println("");
         
         
         baseBit.set(5);
