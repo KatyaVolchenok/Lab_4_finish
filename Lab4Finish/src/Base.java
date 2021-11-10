@@ -64,12 +64,12 @@ public void check(int index) {
     
 @Override
     public String toString() {
-       int[] l = new int[LINE];
+       boolean [] l = new boolean[LINE];
        for(int i = 0; i<datas.length; i++) {
            if(datas[i] == true) {
-               l[i] = 1;
+               l[i] = false;
            }else {
-               l[i] = 0;
+               l[i] = true;
            }
        } return Arrays.toString(l);
     }
